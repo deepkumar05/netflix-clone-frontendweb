@@ -1,0 +1,75 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(to bottom,rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.9) 100%), url(https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/8ec27a1d-02ce-4489-b320-a95106906f5d/IN-en-20221121-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    position: relative;
+    .top{
+        .wrapper{
+            padding: 6px 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .logo{
+                height: 80px;
+            }
+            .loginButton{
+                background-color: red;
+                border: none;
+                color: white;
+                border-radius: 5px;
+                padding: 5px 15px;
+                font-size: 16px;
+                margin-right: 20px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+        }
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        h1{
+            font-size: 50px;
+        }
+        h2{
+            margin: 20px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .input{
+            width: 50%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+            height: 60px;
+            border-radius: 5px;
+            input{
+                flex: 9;
+                height: 100%;
+                border: none;
+                padding: 0px 10px;
+            }
+            .registerButton{
+                flex: 3;
+                background-color: red;
+                height: 100%;
+                font-size: 22px;
+                border: none;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}
